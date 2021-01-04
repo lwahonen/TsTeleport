@@ -109,7 +109,7 @@ void __RPC_USER MIDL_user_free( void __RPC_FAR * );
 
 
 #define  WTS_PROPERTY_DEFAULT_CONFIG  L"DefaultConfig"
-EXTERN_C __declspec(selectany) const IID IID_IWTSPlugin = {0xA1230201, 0x1439, 0x4e62, { 0xa4, 0x14, 0x19, 0x0d, 0x0a, 0xc3, 0xd4, 0x0e}};
+//EXTERN_C __declspec(selectany) const IID IID_IWTSPlugin = {0xA1230201, 0x1439, 0x4e62, { 0xa4, 0x14, 0x19, 0x0d, 0x0a, 0xc3, 0xd4, 0x0e}};
 
 
 extern RPC_IF_HANDLE __MIDL_itf_TSVirtualChannels_0000_v0_0_c_ifspec;
@@ -268,7 +268,7 @@ void __RPC_STUB IWTSPlugin_Terminated_Stub(
 /* interface __MIDL_itf_TSVirtualChannels_0147 */
 /* [local] */
 
-EXTERN_C __declspec(selectany) const IID IID_IWTSListener = {0xA1230206, 0x9a39, 0x4d58, {0x86, 0x74, 0xcd, 0xb4, 0xdf, 0xf4, 0xe7, 0x3b}};
+//EXTERN_C __declspec(selectany) const IID IID_IWTSListener = {0xA1230206, 0x9a39, 0x4d58, {0x86, 0x74, 0xcd, 0xb4, 0xdf, 0xf4, 0xe7, 0x3b}};
 
 
 extern RPC_IF_HANDLE __MIDL_itf_TSVirtualChannels_0147_v0_0_c_ifspec;
@@ -367,7 +367,7 @@ void __RPC_STUB IWTSListener_GetConfiguration_Stub(
 /* interface __MIDL_itf_TSVirtualChannels_0148 */
 /* [local] */
 
-EXTERN_C __declspec(selectany) const IID IID_IWTSListenerCallback = {0xA1230203, 0xd6a7, 0x11d8, {0xb9, 0xfd, 0x00, 0x0b, 0xdb, 0xd1, 0xf1, 0x98}};
+//EXTERN_C __declspec(selectany) const IID IID_IWTSListenerCallback = {0xA1230203, 0xd6a7, 0x11d8, {0xb9, 0xfd, 0x00, 0x0b, 0xdb, 0xd1, 0xf1, 0x98}};
 
 
 extern RPC_IF_HANDLE __MIDL_itf_TSVirtualChannels_0148_v0_0_c_ifspec;
@@ -475,7 +475,7 @@ void __RPC_STUB IWTSListenerCallback_OnNewChannelConnection_Stub(
 /* interface __MIDL_itf_TSVirtualChannels_0149 */
 /* [local] */
 
-EXTERN_C __declspec(selectany) const IID IID_IWTSVirtualChannelCallback = {0xA1230204, 0xd6a7, 0x11d8, {0xb9, 0xfd, 0x00, 0x0b, 0xdb, 0xd1, 0xf1, 0x98}};
+//EXTERN_C __declspec(selectany) const IID IID_IWTSVirtualChannelCallback = {0xA1230204, 0xd6a7, 0x11d8, {0xb9, 0xfd, 0x00, 0x0b, 0xdb, 0xd1, 0xf1, 0x98}};
 
 
 extern RPC_IF_HANDLE __MIDL_itf_TSVirtualChannels_0149_v0_0_c_ifspec;
@@ -596,7 +596,7 @@ void __RPC_STUB IWTSVirtualChannelCallback_OnClose_Stub(
 /* interface __MIDL_itf_TSVirtualChannels_0150 */
 /* [local] */
 
-EXTERN_C __declspec(selectany) const IID IID_IWTSVirtualChannelManager = {0xA1230205,0xd6a7,0x11d8,{0xb9,0xfd,0x00,0x0b,0xdb,0xd1,0xf1,0x98}};
+//EXTERN_C __declspec(selectany) const IID IID_IWTSVirtualChannelManager = {0xA1230205,0xd6a7,0x11d8,{0xb9,0xfd,0x00,0x0b,0xdb,0xd1,0xf1,0x98}};
 #define  TS_VC_LISTENER_STATIC_CHANNEL   0x00000001
 
 
@@ -705,7 +705,7 @@ void __RPC_STUB IWTSVirtualChannelManager_CreateListener_Stub(
 /* interface __MIDL_itf_TSVirtualChannels_0151 */
 /* [local] */
 
-EXTERN_C __declspec(selectany) const IID IID_IWTSVirtualChannel = { 0xA1230207, 0xd6a7, 0x11d8, { 0xb9, 0xfd, 0x00, 0x0b, 0xdb, 0xd1, 0xf1, 0x98} };
+//EXTERN_C __declspec(selectany) const IID IID_IWTSVirtualChannel = { 0xA1230207, 0xd6a7, 0x11d8, { 0xb9, 0xfd, 0x00, 0x0b, 0xdb, 0xd1, 0xf1, 0x98} };
 
 
 extern RPC_IF_HANDLE __MIDL_itf_TSVirtualChannels_0151_v0_0_c_ifspec;
